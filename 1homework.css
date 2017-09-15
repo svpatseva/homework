@@ -1,0 +1,43 @@
+body {
+    font-family: "Comic Sans MS";
+    font-size: 80%;
+    }
+
+h1 {
+    color: darkblue;
+    }
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid darkgrey;
+    padding: 4px;    
+    }
+    
+
+caption {
+    text-align: left;
+    }
+
+.first_block {
+    display: inline-block; 
+    vertical-align: top;
+    border: 3px solid gray;
+    border-radius: 2px;
+    padding: 16px;
+    margin-top: 6px;
+    width: 16%;
+    background-color: lavender;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+    
+.main_block {
+    border: 3px solid gray;
+    border-radius: 2px;
+    padding: 16px;
+    margin-left: 6px;
+    width: 28%;
+    }    
+    
+.form {
+    background-color: whitesmoke;
+}

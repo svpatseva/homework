@@ -2,23 +2,7 @@
 <html>
     <head>
         <title>Вакансия: Junior Frontend Developer</title>
-        <style>
-
-            body {
-                font-family: "Comic Sans MS";
-                font-size: 80%;
-            }
-
-            table, th, td {
-                border-collapse: collapse;
-                border: 1px solid black;
-                padding: 4px;
-            }
-
-            caption {
-                text-align: left;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="1homework.css">
     </head>
 
     <body> 
@@ -30,15 +14,16 @@
             <img src="img.png">
         </div>
 
-        <div style="display: inline-block; vertical-align: top">
-            <p><label>Имя: <input type="text"></label></p>
+        <div class="first_block">
+            <p><label>Имя: <input type="text" class="form"></label></p>
             <p><a href="https://github.com/svpatseva">Ссылка на репозиторий в GitHub</a></p>
             <p>Опыт работы: нет </p>
         </div>
-
+        
+        <div class="main_block">
         <div>
         <p><label>
-            Дата собеседования: <input type="date">           
+            Дата собеседования: <input type="date" class="form">           
         </label></p>
         
         <p>Уровень английского: <br>
@@ -54,12 +39,12 @@
                 <li>CSS/LESS</li>
                 <li>JavaScript</li>
             </ul>
-                <input type="text" placeholder="Введите навык">
+                <input type="text" placeholder="Введите навык" class="form">
                 <input type="submit" value="Добавить в список">
             </p>
 
         <p><label>Коммуникабельность: 
-            <select name="blabla">
+            <select name="blabla" class="form">
                 <option disabled selected>Выберите значение</option>
                 <option value="1">Застенчив</option>
                 <option value="2">Легко находит контакт</option>
@@ -68,7 +53,7 @@
         </label></p>
 
         <p><label>
-                Желаемая з/п: <input type="text" placeholder="Введите значение">   
+                Желаемая з/п: <input type="text" placeholder="Введите значение" class="form">   
         </label></p>
 
         <p>Подходит по критериям: <br>
@@ -83,7 +68,7 @@
         <p>
             <table border="1">
                 <caption>Образование, курсы и т.п.</caption>
-                <tr>
+                <tr class="form">
                     <td>
                         #
                     </td>
@@ -128,6 +113,7 @@
             </table>
         </p>
     </div>
+        </div>
     </form>
     </body>
 
